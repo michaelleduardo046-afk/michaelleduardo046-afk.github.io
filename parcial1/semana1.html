@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parcial 1 - Semana 1</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #000;
+      color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #111;
+    }
+    header h1 {
+      font-weight: 700;
+      font-size: 1.8rem;
+      margin-bottom: 0.3rem;
+    }
+    header p {
+      font-weight: 300;
+      opacity: 0.8;
+      font-size: 0.95rem;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: #111;
+      border-radius: 10px;
+      border: 1px solid #222;
+    }
+    section h2 {
+      font-weight: 700;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #666;
+      padding-bottom: 0.3rem;
+    }
+    .contenido-apunte {
+      margin-bottom: 1.5rem;
+    }
+    .contenido-apunte h4 {
+      margin-bottom: 0.5rem;
+      color: #bbb;
+    }
+    .contenido-apunte ul {
+      margin-left: 1.2rem;
+      list-style: square;
+    }
+    pre {
+      background: #000;
+      padding: 0.8rem;
+      border-radius: 6px;
+      overflow-x: auto;
+      border: 1px solid #333;
+    }
+    code {
+      font-family: monospace;
+      color: #80ff80;
+    }
+    .imagen-apunte {
+      text-align: center;
+      margin: 1rem 0;
+    }
+    .imagen-apunte img {
+      max-width: 40%;
+      height: auto;
+      border-radius: 8px;
+      border: 1px solid #333;
+      display: inline-block;
+    }
+    .video {
+      margin-top: 1.5rem;
+      background: #1a1a1a;
+      padding: 1rem;
+      border-radius: 8px;
+      border: 1px solid #222;
+    }
+    .video h4 {
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+    .video iframe {
+      width: 100%;
+      height: 280px;
+      border-radius: 8px;
+    }
+    .video a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.4rem 0.8rem;
+      background: #666;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .video a:hover {
+      background: #555;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      background: #111;
+      border-top: 1px solid #222;
+      opacity: 0.7;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Parcial 1 - Semana 1</h1>
+    <p>MICHAELL EDUARDO ESTRADA CRUZ · PROGRAMACION · 5AV</p>
+  </header>
+
+  <section>
+    <h2>Introducción a PHP</h2>
+
+    <div class="contenido-apunte">
+      <h4>1. ¿Qué es PHP?</h4>
+      <p>PHP es un lenguaje de programación que se usa sobre todo en páginas web.</p>
+      <p>Sirve para hacer que una página no sea estática, sino que pueda procesar datos, conectarse con bases de datos, enviar información, etc.</p>
+      <div class="imagen-apunte">
+        <img src="../semana/logophp.png" alt="PHP Logo">
+      </div>
+    </div>
+
+    <div class="contenido-apunte">
+      <h4>2. ¿Qué puede hacer PHP?</h4>
+      <ul>
+        <li>Generar contenido dinámico en páginas web.</li>
+        <li>Conectarse y trabajar con bases de datos (ejemplo: MySQL).</li>
+        <li>Recibir y procesar formularios.</li>
+        <li>Manejar sesiones y cookies.</li>
+        <li>Crear sistemas como: login, blogs, tiendas en línea, etc.</li>
+      </ul>
+    </div>
+
+    <div class="contenido-apunte">
+      <h4>3. ¿Cómo instalar MAMP?</h4>
+      <p>• Ve a la página oficial de MAMP.<br>
+         • Descarga la versión para tu sistema (Windows o Mac).<br>
+         • Instálalo como cualquier programa.<br>
+         • MAMP incluye Apache, PHP y MySQL.
+      </p>
+      <div class="imagen-apunte">
+        <img src="../semana/logomamp.png" alt="MAMP Logo">
+      </div>
+    </div>
+
+    <div class="contenido-apunte">
+      <h4>4. ¿Cómo instalar Visual Studio Code (VS Code)?</h4>
+      <p>• Descarga desde la página oficial de Visual Studio Code.<br>
+         • Instálalo en tu computadora.<br>
+         • Es un editor de código ligero y muy usado.<br>
+         • Puedes agregar extensiones (ejemplo: PHP Intelephense).
+      </p>
+      <div class="imagen-apunte">
+        <img src="../semana/logovisual2.png" alt="VS Code Logo">
+      </div>
+    </div>
+
+    <div class="contenido-apunte">
+      <h4>5. ¿Qué es una carpeta de trabajo?</h4>
+      <p>Es la carpeta principal de tu proyecto donde guardas tus archivos (PHP, HTML, CSS, imágenes, etc.).</p>
+      
+    </div>
+
+    <div class="contenido-apunte">
+      <h4>6. ¿Qué es una extensión de archivos?</h4>
+      <ul>
+        <li><b>.php</b> = código PHP</li>
+        <li><b>.html</b> = páginas web estáticas</li>
+        <li><b>.css</b> = estilos</li>
+        <li><b>.js</b> = JavaScript</li>
+      </ul>
+    </div>
+
+    <div class="contenido-apunte">
+      <h4>7. ¿Cómo editar código PHP?</h4>
+      <p>Como en el ejemplo solo podemos cambiar el texto de "Hola Mundo" y poner cualquier otro texto:</p>
+      <pre><code>&lt;?php
+  echo "Hola Mundo";
+?&gt;</code></pre>
+    </div>
+
+    <div class="contenido-apunte">
+      <h4>8. ¿Cómo guardar archivos?</h4>
+      <p>En VS Code → <b>Ctrl + S</b> (o en Mac <b>Cmd + S</b>). Asegúrate de guardar con la extensión correcta.</p>
+      
+    </div>
+    <div class="contenido-apunte">
+      <h4>9. ¿Cómo visualizar archivos?</h4>
+      <p>solamente nos metemos a nuestra carpeta de trabajo y buscamos el nombre que le hayamos puesto a nuestro archivo</p>
+      </div>
+
+    <div class="contenido-apunte">
+      <h4>10. ¿Qué son las variables en PHP?</h4>
+      <pre><code>&lt;?php
+  $nombre = "Michell";
+  $edad = 20;
+  echo "Hola, me llamo $nombre y tengo $edad años.";
+?&gt;</code></pre>
+     
+    </div>
+
+    <div class="video">
+      <h4>Explicacion De Codigos</h4>
+      
+      <a href="https://youtu.be/ljV8GO3hq6U?si=qqwHp5SEeqejovfB" target="_blank">Ver mi video gg</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Mis Apuntes · Todos los derechos reservados</p> 
+  </footer>
+</body>
+</html>

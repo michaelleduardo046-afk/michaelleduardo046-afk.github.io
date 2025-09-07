@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mis Apuntes</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #000;
+      color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #111;
+    }
+    header img {
+      max-width: 70px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      font-weight: 700;
+      font-size: 1.8rem;
+      margin-bottom: 0.3rem;
+    }
+    header p {
+      font-weight: 300;
+      opacity: 0.8;
+      font-size: 0.95rem;
+    }
+
+    nav {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 0.8rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      background: #666;   
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      background: #555;  
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: #111;
+      border-radius: 10px;
+      border: 1px solid #222;
+    }
+    section h2 {
+      font-weight: 700;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #666;
+      padding-bottom: 0.3rem;
+    }
+
+    .apunte {
+      background: #1a1a1a;
+      padding: 1rem;
+      border-radius: 8px;
+      border: 1px solid #222;
+      margin-bottom: 1.5rem;
+    }
+    .apunte h3 {
+      margin-bottom: 1rem;
+      color: #ccc;  
+    }
+    .contenido-apunte {
+      margin-bottom: 1.2rem;
+    }
+    .contenido-apunte h4 {
+      margin-bottom: 0.5rem;
+      color: #bbb; 
+    }
+    .contenido-apunte ul {
+      margin-left: 1.2rem;
+      list-style: square;
+    }
+    pre {
+      background: #000;
+      padding: 0.8rem;
+      border-radius: 6px;
+      overflow-x: auto;
+      border: 1px solid #333;
+    }
+    code {
+      font-family: monospace;
+      color: #80ff80;
+    }
+
+    .imagen-apunte {
+      text-align: center;
+      margin: 1rem 0;
+    }
+
+    .imagen-apunte img {
+      max-width: 40%;
+      height: auto;
+      border-radius: 8px;
+      border: 1px solid #333;
+      display: inline-block;
+    }
+
+    .video {
+      margin-top: 1.5rem;
+      background: #1a1a1a;
+      padding: 1rem;
+      border-radius: 8px;
+      border: 1px solid #222;
+    }
+    .video h4 {
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+    .video iframe {
+      width: 100%;
+      height: 280px;
+      border-radius: 8px;
+    }
+    .video a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.4rem 0.8rem;
+      background: #666;  
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .video a:hover {
+      background: #555; 
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      background: #111;
+      border-top: 1px solid #222;
+      opacity: 0.7;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="../semana/logodgeti.png" alt="Logo Escuela">
+    <h1>Mis Apuntes</h1>
+    <p>MICHAELL EDUARDO ESTRADA CRUZ · PROGRAMACION · 5AV</p>
+
+    <nav>
+      <a href="#parcial-1">Parcial 1</a>
+      <a href="#parcial-2">Parcial 2</a>
+      <a href="#parcial-3">Parcial 3</a>
+    </nav>
+  </header>
+
+<section id="parcial-1">
+  <h2>Parcial 1</h2>
+
+  <div class="semanas-container" style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center;">
+
+    <!-- Semana 1 -->
+    <div class="semana" style="background:#1a1a1a; border:1px solid #222; border-radius:8px; padding:1rem; width:200px; text-align:center;">
+      <h3 style="color:#ccc;">Semana 1</h3>
+      <a href="parcial1/semana1.html" style="display:inline-block; margin-top:0.5rem; padding:0.4rem 0.8rem; background:#666; color:#fff; border-radius:6px; text-decoration:none;">Ver Apunte</a>
+    </div>
+
+    <!-- Semana 2 -->
+    <div class="semana" style="background:#1a1a1a; border:1px solid #222; border-radius:8px; padding:1rem; width:200px; text-align:center;">
+      <h3 style="color:#ccc;">Semana 2</h3>
+      <a href="parcial1/semana2.html" style="display:inline-block; margin-top:0.5rem; padding:0.4rem 0.8rem; background:#666; color:#fff; border-radius:6px; text-decoration:none;">Ver Apunte</a>
+    </div>
+
+    <!-- Semana 3 -->
+    <div class="semana" style="background:#1a1a1a; border:1px solid #222; border-radius:8px; padding:1rem; width:200px; text-align:center;">
+      <h3 style="color:#ccc;">Semana 3</h3>
+      <a href="parcial1/semana3.html" style="display:inline-block; margin-top:0.5rem; padding:0.4rem 0.8rem; background:#666; color:#fff; border-radius:6px; text-decoration:none;">Ver Apunte</a>
+    </div>
+
+    <!-- Semana 4 -->
+    <div class="semana" style="background:#1a1a1a; border:1px solid #222; border-radius:8px; padding:1rem; width:200px; text-align:center;">
+      <h3 style="color:#ccc;">Semana 4</h3>
+      <a href="apuntes/parcial1/semana4.html" style="display:inline-block; margin-top:0.5rem; padding:0.4rem 0.8rem; background:#666; color:#fff; border-radius:6px; text-decoration:none;">Ver Apunte</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="parcial-2">
+  <h2>Parcial 2</h2>
+
+  <div class="semanas-container" style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center;">
+
+    <div class="semana" style="background:#1a1a1a; border:1px solid #222; border-radius:8px; padding:1rem; width:200px; text-align:center;">
+      <h3 style="color:#ccc;">Semana 1</h3>
+      <a href="apuntes/parcial2/semana1.html" style="display:inline-block; margin-top:0.5rem; padding:0.4rem 0.8rem; background:#666; color:#fff; border-radius:6px; text-decoration:none;">Ver Apunte</a>
+    </div>
+
+    <div class="semana" style="background:#1a1a1a; border:1px solid #222; border-radius:8px; padding:1rem; width:200px; text-align:center;">
+      <h3 style="color:#ccc;">Semana 2</h3>
+      <a href="apuntes/parcial2/semana2.html" style="display:inline-block; margin-top:0.5rem; padding:0.4rem 0.8rem; background:#666; color:#fff; border-radius:6px; text-decoration:none;">Ver Apunte</a>
+    </div>
+
+    <div class="semana" style="background:#1a1a1a; border:1px solid #222; border-radius:8px; padding:1rem; width:200px; text-align:center;">
+      <h3 style="color:#ccc;">Semana 3</h3>
+      <a href="apuntes/parcial2/semana3.html" style="display:inline-block; margin-top:0.5rem; padding:0.4rem 0.8rem; background:#666; color:#fff; border-radius:6px; text-decoration:none;">Ver Apunte</a>
+    </div>
+
+    <div class="semana" style="background:#1a1a1a; border:1px solid #222; border-radius:8px; padding:1rem; width:200px; text-align:center;">
+      <h3 style="color:#ccc;">Semana 4</h3>
+      <a href="apuntes/parcial2/semana4.html" style="display:inline-block; margin-top:0.5rem; padding:0.4rem 0.8rem; background:#666; color:#fff; border-radius:6px; text-decoration:none;">Ver Apunte</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="parcial-3">
+  <h2>Parcial 3</h2>
+
+  <div class="semanas-container" style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center;">
+
+    <div class="semana" style="background:#1a1a1a; border:1px solid #222; border-radius:8px; padding:1rem; width:200px; text-align:center;">
+      <h3 style="color:#ccc;">Semana 1</h3>
+      <a href="apuntes/parcial3/semana1.html" style="display:inline-block; margin-top:0.5rem; padding:0.4rem 0.8rem; background:#666; color:#fff; border-radius:6px; text-decoration:none;">Ver Apunte</a>
+    </div>
+
+    <div class="semana" style="background:#1a1a1a; border:1px solid #222; border-radius:8px; padding:1rem; width:200px; text-align:center;">
+      <h3 style="color:#ccc;">Semana 2</h3>
+      <a href="apuntes/parcial3/semana2.html" style="display:inline-block; margin-top:0.5rem; padding:0.4rem 0.8rem; background:#666; color:#fff; border-radius:6px; text-decoration:none;">Ver Apunte</a>
+    </div>
+
+  </div>
+</section>
+
+
+  <footer>
+    <p>© 2025 Mis Apuntes · Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
